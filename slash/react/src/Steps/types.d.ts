@@ -4,3 +4,5 @@ export type CustomClickEvent = {
   id: string;
   title: string;
 };
+
+export type VerticalStepMode = "edited" | "locked" | "validated";
